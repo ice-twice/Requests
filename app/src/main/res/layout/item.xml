@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="30dp">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/link"
+        android:layout_width="250dp"
+        android:layout_height="match_parent" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/success_count"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginStart="16dp" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/failure_count"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginStart="16dp" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>
